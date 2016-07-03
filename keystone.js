@@ -82,9 +82,21 @@ keystone.set('email tests', require('./routes/emails'));
 // Configure the navigation bar in Keystone's Admin UI
 
 keystone.set('nav', {
-	routes: 'device-routes',
-	floors: 'floors',
-	users: 'users',
+	DeviceRoute: 'DeviceRoute',
+	Floor: 'Floor',
+	User: 'User',
+	Assets: 'Assets',
+	FloorPlan: 'FloorPlan',
+	Header: 'Header',
+	InteractiveDevices: 'InteractiveDevices',
+	MallServices: 'MallServices',
+	Promotions: 'Promotions',
+	PromotionDeatil: 'PromotionDetail',
+	Shop: 'Shop',
+	ShopCategory: 'ShopCategory',
+	ShopList: 'ShopList',
+	Videos: 'Videos'
+	
 });
 
 // Start Keystone to connect to your database and initialise the web server
